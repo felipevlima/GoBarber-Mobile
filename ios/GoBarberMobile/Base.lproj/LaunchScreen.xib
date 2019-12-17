@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3y7-Z3-dnf">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="IAx-g4-atT">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="IAx-g4-atT" firstAttribute="top" secondItem="3y7-Z3-dnf" secondAttribute="top" id="WYb-GJ-beN"/>
+                <constraint firstItem="IAx-g4-atT" firstAttribute="leading" secondItem="eaw-b7-jHB" secondAttribute="leading" id="aKL-gb-nqe"/>
+                <constraint firstItem="IAx-g4-atT" firstAttribute="trailing" secondItem="eaw-b7-jHB" secondAttribute="trailing" id="djY-YA-j02"/>
+                <constraint firstAttribute="bottom" secondItem="IAx-g4-atT" secondAttribute="bottom" id="ezr-Y4-Q73"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="eaw-b7-jHB"/>
+            <point key="canvasLocation" x="672.46376811594212" y="166.74107142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="414" height="896"/>
+    </resources>
+</document>
